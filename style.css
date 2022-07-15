@@ -1,0 +1,99 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+}
+.navbar{
+  display: flex;
+  justify-content: space-between;
+  box-shadow: 0px 1px 10px 0 rgba(0, 0, 0, 0.25);
+  padding: 0 1.5em;
+
+}
+nav ul{
+  display: flex;
+
+}
+nav ul li{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  font-size: 0.8em;
+  letter-spacing: 1px;
+  padding: 0em 1em;
+  color: #333;
+  cursor: pointer;
+  text-transform: uppercase;
+  font-family: Arial, Helvetica, sans-serif;
+  padding-top: 1em;
+  font-weight: 700;
+}
+.logo{
+  background: #000;
+  color: #fff;
+  margin: 0.25em;
+  padding: 0.25em;
+  border-radius: 50%;
+  font-weight: 300;
+  cursor: pointer;
+}
+.login{
+  line-height: 3em;
+}
+.login a{
+  color: #333;
+}
+.heading{
+  padding: 2em 0 0 3.5em;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  
+}
+/* cards */
+.cards{
+  width: 90%;
+  margin: 2em auto;
+}
+h2{
+  padding: 0.5em 0;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-weight: 500;
+  font-size: 2em;
+}
+.card{
+  display: flex;
+}
+
+.one{
+  background: url(pic1.jpg);
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+}
+.two{
+  background: url(pic2.jpg);
+}
+.three{
+  background: url(pic3.jpg);
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+.section{
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 50vh;
+  cursor: pointer;
+  flex: 0.2;
+  position: relative;
+  transition: all 0.7s ease;
+  text-transform: uppercase;
+  color: #fff;
+  font-family: sans-serif;
+  font-weight: 500;
+  padding: 1.5em;
+} 
+
+.section.active{
+  flex: 1;
+}
